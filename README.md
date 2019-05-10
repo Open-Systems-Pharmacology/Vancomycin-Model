@@ -3,7 +3,7 @@ Whole-body PBPK model of Vancomycin
 
 
 <p align="center">
-  <img src="itraconazole.png">
+  <img src="Vancomycin.png">
 </p>
 
 ## Repository files
