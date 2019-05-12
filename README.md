@@ -10,7 +10,7 @@ Whole-body PBPK model of Vancomycin
 
 Within this repository, we distribute a whole-body PBPK model of  Vancomycin, that has been developed using clinical studies in adults and evaluated for its predictive performance of GFR mediated clearance in children. 
 
-The PK-Sim project file contains simulations of all published  clinical studies employed during model establishment ([[1-2](#reference)]) and for model predictions in pediatrics ([[4](#reference)]), including the respective observed data digitized.
+The PK-Sim project file contains simulations of all published  clinical studies employed during model establishment ([[1-2](#reference)]) and for model predictions in pediatrics ([[3](#reference)]), including the respective observed data digitized.
 
 ## Code of conduct
 
