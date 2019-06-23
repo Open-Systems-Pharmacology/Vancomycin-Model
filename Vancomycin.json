@@ -1,5 +1,5 @@
 {
-  "Version": 75,
+  "Version": 76,
   "Individuals": [
     {
       "Name": "Adult Male Boeckh 1988",
@@ -18052,7 +18052,7 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -18063,7 +18063,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18075,7 +18075,7 @@
               "X": "Time",
               "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18084,7 +18084,7 @@
               "X": "Vancomycin.Healy_1987_Figure2|Time ",
               "Y": "Vancomycin.Healy_1987_Figure2|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18113,22 +18113,22 @@
               "Unit": "h",
               "Dimension": "Time",
               "Type": "X",
-              "GridLines": false,
+              "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -18138,7 +18138,7 @@
               "X": "Time",
               "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18147,7 +18147,7 @@
               "X": "Vancomycin.Healy_1987_Figure2|Time ",
               "Y": "Vancomycin.Healy_1987_Figure2|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18155,6 +18155,19 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
           "OriginText": "Vancomycin_clean\nHealy1987_1gBID\n2019-05-11 22:47"
         }
       ]
@@ -18284,7 +18297,7 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -18295,7 +18308,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18307,7 +18320,7 @@
               "X": "Time",
               "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18316,7 +18329,7 @@
               "X": "Healy_1987_Figure1.500mgPer6h|Time ",
               "Y": "Healy_1987_Figure1.500mgPer6h|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18324,6 +18337,69 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Vancomycin_clean\nHealy1987_0.5gPer6h\n2019-05-11 22:45"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Healy1987_0.5gPer6h-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Healy_1987_Figure1.500mgPer6h-Vancomycin-Peripheral Venous Blood-Plasma-Concentration (µg/mL]",
+              "X": "Healy_1987_Figure1.500mgPer6h|Time ",
+              "Y": "Healy_1987_Figure1.500mgPer6h|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "FontAndSize": {
             "ChartWidth": 400,
             "ChartHeight": 400,
@@ -18443,18 +18519,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18466,7 +18542,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig3c ID6|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18475,7 +18551,7 @@
               "X": "Vancomycin.Schaad_1980.10.8|TAD ",
               "Y": "Vancomycin.Schaad_1980.10.8|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18483,6 +18559,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig3c ID6\n2019-05-11 23:27"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig3c ID6-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig3c ID6|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.10.8-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.10.8|TAD ",
+              "Y": "Vancomycin.Schaad_1980.10.8|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig3c ID6\n2019-05-11 23:27"
         }
       ]
@@ -18589,18 +18715,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µg/ml",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18612,7 +18738,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig1c ID1|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18621,7 +18747,7 @@
               "X": "Vancomycin.Schaad_1980.15.3|TAD ",
               "Y": "Vancomycin.Schaad_1980.15.3|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18629,6 +18755,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig1c ID1\n2019-05-11 23:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig1c ID1-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig1c ID1|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.15.3-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.15.3|TAD ",
+              "Y": "Vancomycin.Schaad_1980.15.3|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig1c ID1\n2019-05-11 23:22"
         }
       ]
@@ -18735,18 +18911,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18758,7 +18934,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig2a ID2|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18767,7 +18943,7 @@
               "X": "Vancomycin.Schaad_1980.10.4|TAD ",
               "Y": "Vancomycin.Schaad_1980.10.4|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18775,6 +18951,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig2a ID2\n2019-05-11 22:48"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig2a ID2-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig2a ID2|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.10.4-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.10.4|TAD ",
+              "Y": "Vancomycin.Schaad_1980.10.4|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig2a ID2\n2019-05-11 22:48"
         }
       ]
@@ -18881,18 +19107,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -18904,7 +19130,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig2b ID3|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -18913,7 +19139,7 @@
               "X": "Vancomycin.Schaad_1980.15.5|TAD ",
               "Y": "Vancomycin.Schaad_1980.15.5|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -18921,6 +19147,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig2b ID3\n2019-05-11 22:49"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig2b ID3-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig2b ID3|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.15.5-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.15.5|TAD ",
+              "Y": "Vancomycin.Schaad_1980.15.5|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig2b ID3\n2019-05-11 22:49"
         }
       ]
@@ -19027,18 +19303,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -19050,7 +19326,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig3a ID4|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -19059,7 +19335,7 @@
               "X": "Vancomycin.Schaad_1980.15.6|TAD ",
               "Y": "Vancomycin.Schaad_1980.15.6|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -19067,6 +19343,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig3a ID4\n2019-05-11 23:30"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig3a ID4-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig3a ID4|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.15.6-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.15.6|TAD ",
+              "Y": "Vancomycin.Schaad_1980.15.6|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig3a ID4\n2019-05-11 23:30"
         }
       ]
@@ -19173,18 +19499,18 @@
               "Type": "X",
               "GridLines": true,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -19196,7 +19522,7 @@
               "X": "Time",
               "Y": "Schaad1980Fig3b ID5|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -19205,7 +19531,7 @@
               "X": "Vancomycin.Schaad_1980.10.7|TAD ",
               "Y": "Vancomycin.Schaad_1980.10.7|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -19213,6 +19539,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Vancomycin_clean\nSchaad1980Fig3b ID5\n2019-05-11 23:36"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": true,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Schaad1980Fig3b ID5-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schaad1980Fig3b ID5|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.Schaad_1980.10.7-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.Schaad_1980.10.7|TAD ",
+              "Y": "Vancomycin.Schaad_1980.10.7|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Vancomycin_clean\nSchaad1980Fig3b ID5\n2019-05-11 23:36"
         }
       ]
@@ -19316,7 +19692,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -19327,7 +19703,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -19339,7 +19715,7 @@
               "X": "Time",
               "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -19348,7 +19724,7 @@
               "X": "Vancomycin.boeckh1988_fig1.1g TAD|TAD ",
               "Y": "Vancomycin.boeckh1988_fig1.1g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -19356,6 +19732,69 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Vancomycin\nBoeckh1988_1g\n2019-05-17 10:42"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Boeckh1988_1g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.boeckh1988_fig1.1g TAD-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.boeckh1988_fig1.1g TAD|TAD ",
+              "Y": "Vancomycin.boeckh1988_fig1.1g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "FontAndSize": {
             "ChartWidth": 400,
             "ChartHeight": 400,
@@ -19475,7 +19914,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -19486,7 +19925,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -19498,7 +19937,7 @@
               "X": "Time",
               "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -19507,7 +19946,7 @@
               "X": "Vancomycin.boeckh1988_fig1.0.5g TAD|TAD ",
               "Y": "Vancomycin.boeckh1988_fig1.0.5g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -19515,6 +19954,69 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Vancomycin_clean\nBoeckh 1988 Figure 1 0.5mg\n2019-05-11 22:41"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Boeckh 1988 Figure 1 0.5mg-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Vancomycin.boeckh1988_fig1.0.5g TAD-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Vancomycin.boeckh1988_fig1.0.5g TAD|TAD ",
+              "Y": "Vancomycin.boeckh1988_fig1.0.5g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "FontAndSize": {
             "ChartWidth": 400,
             "ChartHeight": 400,
@@ -19690,10 +20192,10 @@
                 "Name": "Concentration-Schaad 1980 Fig1c POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -19748,8 +20250,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig1c POP\n2019-05-11 23:08"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig1c POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.15.3"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.15.3-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.15.3|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig1c POP\n2019-05-11 23:08"
         }
@@ -19913,10 +20486,10 @@
                 "Name": "Concentration-Schaad 1980 Fig 2a POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -19971,8 +20544,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 2a POP\n2019-05-14 11:22"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig 2a POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.10.4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.10.4-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.10.4|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 2a POP\n2019-05-14 11:22"
         }
@@ -20136,10 +20780,10 @@
                 "Name": "Concentration-Schaad 1980 Fig 2b POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -20194,8 +20838,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 2b POP\n2019-05-14 11:23"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig 2b POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.15.5"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.15.5-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.15.5|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 2b POP\n2019-05-14 11:23"
         }
@@ -20359,10 +21074,10 @@
                 "Name": "Concentration-Schaad 1980 Fig 3a POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -20417,8 +21132,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3a POP\n2019-05-14 11:24"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig 3a POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.15.6"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.15.6-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.15.6|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3a POP\n2019-05-14 11:24"
         }
@@ -20582,10 +21368,10 @@
                 "Name": "Concentration-Schaad 1980 Fig 3b POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -20640,8 +21426,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3b POP\n2019-05-14 11:24"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig 3b POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.10.7"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.10.7-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.10.7|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 450,
+            "ChartHeight": 450,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3b POP\n2019-05-14 11:24"
         }
@@ -20805,10 +21662,10 @@
                 "Name": "Concentration-Schaad 1980 Fig 3c POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
                 "Dimension": "Concentration (molar)",
                 "Scaling": "Log",
-                "Unit": "µg/ml",
+                "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -20863,8 +21720,79 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3c POP\n2019-05-14 11:27"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Schaad 1980 Fig 3c POP-Vancomycin-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Vancomycin.Schaad_1980.10.8"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Vancomycin.Schaad_1980.10.8-Vancomycin-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Vancomycin.Schaad_1980.10.8|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Vancomycin_clean\nSchaad 1980 Fig 3c POP\n2019-05-14 11:27"
         }
@@ -21051,7 +21979,7 @@
                 "Type": "X",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "None",
                 "Scaling": "Linear",
                 "NumberMode": "Normal"
@@ -21062,7 +21990,7 @@
                 "Type": "Y",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "Solid",
                 "Scaling": "Log",
                 "NumberMode": "Normal"
@@ -21075,7 +22003,7 @@
                 "Y": "Vancomycin.boeckh1988_fig1.1g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 1,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21087,7 +22015,7 @@
                 "Y": "Vancomycin.boeckh1988_fig1.0.5g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 2,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21099,7 +22027,7 @@
                 "Y": "Vancomycin.Healy_1987_Figure2|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 3,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21111,7 +22039,7 @@
                 "Y": "Healy_1987_Figure1.500mgPer6h|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
                 "CurveOptions": {
                   "VisibleInLegend": false,
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 4,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21122,7 +22050,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 5
                 }
               },
@@ -21131,7 +22059,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 6
                 }
               },
@@ -21140,7 +22068,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 7
                 }
               },
@@ -21149,7 +22077,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 8
                 }
               },
@@ -21158,7 +22086,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 9
                 }
               },
@@ -21167,7 +22095,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 10
                 }
               },
@@ -21176,7 +22104,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 11
                 }
               },
@@ -21185,7 +22113,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 12
                 }
               },
@@ -21194,7 +22122,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 13
                 }
               },
@@ -21203,7 +22131,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 14
                 }
               },
@@ -21212,7 +22140,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 15
                 }
               },
@@ -21221,7 +22149,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 16
                 }
               },
@@ -21230,7 +22158,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 17
                 }
               },
@@ -21239,7 +22167,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 18
                 }
               },
@@ -21248,7 +22176,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 19
                 }
               },
@@ -21257,7 +22185,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 20
                 }
               },
@@ -21266,7 +22194,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 21
                 }
               },
@@ -21275,7 +22203,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 22
                 }
               },
@@ -21284,7 +22212,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 23
                 }
               },
@@ -21293,7 +22221,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 24
                 }
               },
@@ -21302,7 +22230,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 25
                 }
               },
@@ -21311,7 +22239,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 26
                 }
               },
@@ -21320,7 +22248,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 27
                 }
               },
@@ -21329,7 +22257,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 28
                 }
               },
@@ -21338,7 +22266,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 29
                 }
               },
@@ -21347,7 +22275,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 30
                 }
               },
@@ -21356,7 +22284,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 31
                 }
               },
@@ -21365,7 +22293,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 32
                 }
               },
@@ -21374,7 +22302,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 33
                 }
               },
@@ -21383,7 +22311,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 34
                 }
               },
@@ -21392,7 +22320,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 35
                 }
               },
@@ -21401,7 +22329,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 36
                 }
               },
@@ -21410,7 +22338,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 37
                 }
               },
@@ -21419,7 +22347,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 38
                 }
               },
@@ -21428,7 +22356,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 39
                 }
               },
@@ -21437,7 +22365,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 40
                 }
               },
@@ -21446,7 +22374,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 41
                 }
               },
@@ -21455,7 +22383,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 42
                 }
               },
@@ -21464,7 +22392,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 43
                 }
               },
@@ -21473,7 +22401,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 44
                 }
               },
@@ -21482,7 +22410,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 45
                 }
               },
@@ -21491,7 +22419,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 46
                 }
               },
@@ -21500,7 +22428,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 47
                 }
               },
@@ -21509,7 +22437,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 48
                 }
               },
@@ -21518,7 +22446,7 @@
                 "X": "Time",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 49
                 }
               },
@@ -21527,7 +22455,7 @@
                 "X": "Time",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 50
                 }
               },
@@ -21536,7 +22464,7 @@
                 "X": "Time",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 51
                 }
               },
@@ -21545,7 +22473,7 @@
                 "X": "Time",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 52
                 }
               }
@@ -21554,8 +22482,8 @@
             "Settings": {
               "SideMarginsEnabled": true,
               "LegendPosition": "None",
-              "BackColor": "Transparent",
-              "DiagramBackColor": "White"
+              "BackColor": "#FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
             }
           }
         },
@@ -21570,7 +22498,7 @@
                 "Type": "X",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "None",
                 "Scaling": "Log",
                 "NumberMode": "Normal"
@@ -21581,7 +22509,7 @@
                 "Type": "Y",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "Solid",
                 "Scaling": "Log",
                 "NumberMode": "Normal"
@@ -21593,7 +22521,7 @@
                 "X": "Vancomycin.Healy_1987_Figure2|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 1,
                   "LineStyle": "None",
                   "Symbol": "Diamond"
@@ -21604,7 +22532,7 @@
                 "X": "Healy_1987_Figure1.500mgPer6h|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration (µg/mL]",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 2,
                   "LineStyle": "None",
                   "Symbol": "Diamond"
@@ -21615,7 +22543,7 @@
                 "X": "Vancomycin.boeckh1988_fig1.1g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 3,
                   "LineStyle": "None",
                   "Symbol": "Diamond"
@@ -21626,7 +22554,7 @@
                 "X": "Vancomycin.boeckh1988_fig1.0.5g TAD|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|Concentration ",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 4,
                   "LineStyle": "None",
                   "Symbol": "Diamond"
@@ -21650,8 +22578,8 @@
             "Settings": {
               "SideMarginsEnabled": true,
               "LegendPosition": "Bottom",
-              "BackColor": "Transparent",
-              "DiagramBackColor": "White"
+              "BackColor": "#FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
             }
           }
         },
@@ -21666,7 +22594,7 @@
                 "Type": "X",
                 "GridLines": false,
                 "Visible": true,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "None",
                 "Scaling": "Linear",
                 "NumberMode": "Normal"
@@ -21680,7 +22608,7 @@
                 "Visible": true,
                 "Min": -0.5,
                 "Max": 0.5,
-                "DefaultColor": "White",
+                "DefaultColor": "#FFFFFF",
                 "DefaultLineStyle": "Solid",
                 "Scaling": "Linear",
                 "NumberMode": "Normal"
@@ -21692,7 +22620,7 @@
                 "X": "",
                 "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Vancomycin.boeckh1988_fig1.1g TAD|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 0",
+                  "Color": "#FF0000",
                   "LegendIndex": 1,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21703,7 +22631,7 @@
                 "X": "",
                 "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Vancomycin.boeckh1988_fig1.0.5g TAD|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 0, 255",
+                  "Color": "#0000FF",
                   "LegendIndex": 2,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21714,7 +22642,7 @@
                 "X": "",
                 "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Vancomycin.Healy_1987_Figure2|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "0, 128, 0",
+                  "Color": "#008000",
                   "LegendIndex": 3,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -21725,7 +22653,7 @@
                 "X": "",
                 "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Healy_1987_Figure1.500mgPer6h|Plasma (Peripheral Venous Blood)",
                 "CurveOptions": {
-                  "Color": "255, 0, 255",
+                  "Color": "#FF00FF",
                   "LegendIndex": 4,
                   "LineStyle": "None",
                   "Symbol": "Circle"
@@ -22138,18 +23066,18 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            32.45899,
-            19.03693,
-            13.5988207,
-            11.03624,
-            9.166777,
-            5.83100033,
-            3.624048,
-            2.743387,
-            1.536024
+            32458.9883,
+            19036.93,
+            13598.82,
+            11036.24,
+            9166.776,
+            5831.0,
+            3624.048,
+            2743.38721,
+            1536.024
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -22256,18 +23184,18 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            48.1525879,
-            32.8377,
-            25.7382717,
-            20.88811,
-            16.75642,
-            10.17552,
-            7.18494,
-            5.19236469,
-            3.010159
+            48152.59,
+            32837.7,
+            25738.2715,
+            20888.11,
+            16756.42,
+            10175.5205,
+            7184.94,
+            5192.36475,
+            3010.159
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -22345,43 +23273,43 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            0.1458333,
-            63.4375038,
-            53.66667,
-            46.2291679,
-            38.0625,
-            29.02083,
-            24.0625,
-            20.85417,
-            18.375,
-            15.75,
-            12.83333,
-            9.479167,
-            6.5625,
-            4.958333,
-            64.60416,
-            39.95833,
-            33.3958321,
-            65.1875,
-            57.60417,
-            49.875,
-            40.83333,
-            33.6875,
-            28.4375,
-            25.375,
-            22.75,
-            20.85417,
-            16.91667,
-            12.97917,
-            9.625,
-            5.833333,
-            3.5,
-            1.75,
-            1.458333,
-            0.291666716
+            145.8333,
+            63437.5039,
+            53666.67,
+            46229.168,
+            38062.5,
+            29020.83,
+            24062.5,
+            20854.17,
+            18375.0,
+            15750.0,
+            12833.33,
+            9479.167,
+            6562.5,
+            4958.333,
+            64604.16,
+            39958.33,
+            33395.832,
+            65187.5,
+            57604.17,
+            49875.0,
+            40833.33,
+            33687.5,
+            28437.5,
+            25375.0,
+            22750.0,
+            20854.17,
+            16916.67,
+            12979.17,
+            9625.0,
+            5833.333,
+            3500.0,
+            1750.0,
+            1458.333,
+            291.666718
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -22649,15 +23577,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            26.1,
-            17.5,
-            14.6,
-            11.5,
-            8.3,
-            5.9
+            26100.0,
+            17500.0,
+            14600.0,
+            11500.0,
+            8300.0,
+            5900.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -22770,15 +23698,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            27.1999989,
-            16.9,
-            12.4,
-            7.6,
-            4.1,
-            2.6
+            27200.0,
+            16900.0,
+            12400.0,
+            7600.0,
+            4100.0,
+            2600.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -22891,15 +23819,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            30.5,
-            18.2,
-            14.4,
-            8.9,
-            4.9,
-            2.6
+            30500.0,
+            18200.0,
+            14400.0,
+            8900.0,
+            4900.0,
+            2600.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -23133,15 +24061,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            29.8,
-            22.8000011,
-            19.5,
-            17.7,
-            14.2,
-            11.5
+            29800.0,
+            22800.0,
+            19500.0,
+            17700.0,
+            14200.0,
+            11500.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -23254,15 +24182,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            28.0,
-            18.5,
-            15.6,
-            11.1,
-            6.89999962,
-            5.2
+            28000.0,
+            18500.0,
+            15600.001,
+            11100.0,
+            6900.0,
+            5200.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -23375,15 +24303,15 @@
             "MolWeight": 1449.3
           },
           "Values": [
-            32.5,
-            17.7,
-            13.5999994,
-            9.5,
-            5.10000038,
-            3.0
+            32500.0,
+            17700.0,
+            13600.0,
+            9500.0,
+            5100.0,
+            3000.0
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -23475,43 +24403,43 @@
           },
           "Values": [
             0.0,
-            32.21053,
-            27.56842,
-            23.2105312,
-            19.42105,
-            13.92632,
-            11.93684,
-            10.04211,
-            8.71579,
-            7.673684,
-            6.157895,
-            5.58947372,
-            7.48421,
-            35.1473732,
-            24.25263,
-            20.36842,
-            10.51579,
-            11.17895,
-            40.16842,
-            35.71579,
-            32.11579,
-            27.37895,
-            22.35789,
-            19.8,
-            17.24211,
-            15.72632,
-            14.49474,
-            11.74737,
-            9.094737,
-            6.821053,
-            4.357895,
-            2.936842,
-            1.61052608,
-            0.8526316,
-            0.4736842
+            32210.53,
+            27568.42,
+            23210.5313,
+            19421.0488,
+            13926.32,
+            11936.84,
+            10042.11,
+            8715.79,
+            7673.684,
+            6157.895,
+            5589.47363,
+            7484.21,
+            35147.37,
+            24252.6289,
+            20368.42,
+            10515.79,
+            11178.95,
+            40168.418,
+            35715.793,
+            32115.79,
+            27378.95,
+            22357.89,
+            19800.0,
+            17242.11,
+            15726.32,
+            14494.74,
+            11747.37,
+            9094.737,
+            6821.05273,
+            4357.895,
+            2936.842,
+            1610.526,
+            852.6316,
+            473.6842
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
