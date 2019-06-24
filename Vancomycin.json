@@ -17594,6 +17594,7 @@
       "Solubility": [
         {
           "Name": "Measurement",
+          "IsDefault": false,
           "Parameters": [
             {
               "Name": "Solubility at reference pH",
@@ -17616,16 +17617,23 @@
         },
         {
           "Name": "Drugbank",
-          "IsDefault": false,
           "Parameters": [
             {
               "Name": "Solubility at reference pH",
               "Value": 225.0,
-              "Unit": "mg/l"
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Description": "Drugbank"
+              }
             },
             {
               "Name": "Reference pH",
-              "Value": 7.0
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Description": "Drugbank"
+              }
             }
           ]
         }
@@ -17725,8 +17733,8 @@
         }
       ],
       "CalculationMethods": [
-        "Cellular partition coefficient method - Berezhkovskiy",
-        "Cellular permeability - PK-Sim Standard"
+        "Cellular partition coefficient method - Schmitt",
+        "Cellular permeability - Charge dependent Schmitt"
       ],
       "Parameters": [
         {
