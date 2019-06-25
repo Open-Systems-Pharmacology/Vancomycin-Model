@@ -17520,39 +17520,7 @@
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'PI Fit adults Dist.Models 2' on 2019-05-10 11:00"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "LogP_Zhou",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": -4.41,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Zhou 2016"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "LogP ALOGPS",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 1.11,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Database",
-                "Method": "Other",
-                "Description": "Drugbank.ca calculated ALOGPS"
+                "Method": "ParameterIdentification"
               }
             }
           ]
@@ -17568,53 +17536,13 @@
               "Value": 0.67,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 3' on 2018-07-13 11:16"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Zhou 2016",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.48,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Other",
-                "Description": "Zhou 2016"
+                "Method": "ParameterIdentification"
               }
             }
           ]
         }
       ],
       "Solubility": [
-        {
-          "Name": "Measurement",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1000.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "Unknown",
-                "Method": "Assumption"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0,
-              "ValueOrigin": {
-                "Source": "Unknown",
-                "Method": "Assumption"
-              }
-            }
-          ]
-        },
         {
           "Name": "Drugbank",
           "Parameters": [
@@ -17645,7 +17573,7 @@
           "ValueOrigin": {
             "Source": "Publication",
             "Method": "Other",
-            "Description": "Radke_2017_Development of a pbpk modelling approach to predict the pk of vancomycin in...pdf, Table 1"
+            "Description": "Radke 2017"
           }
         },
         {
@@ -17654,7 +17582,7 @@
           "ValueOrigin": {
             "Source": "Publication",
             "Method": "Other",
-            "Description": "Radke_2017_Development of a pbpk modelling approach to predict the pk of vancomycin in...pdf, Table 1"
+            "Description": "Radke 2017"
           }
         },
         {
@@ -17663,7 +17591,7 @@
           "ValueOrigin": {
             "Source": "Publication",
             "Method": "Other",
-            "Description": "Radke_2017_Development of a pbpk modelling approach to predict the pk of vancomycin in...pdf, Table 1"
+            "Description": "Radke 2017"
           }
         }
       ],
@@ -17677,9 +17605,9 @@
               "Name": "GFR fraction",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 3' on 2018-07-13 11:16"
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Zhou 2016"
               }
             }
           ]
@@ -17714,22 +17642,6 @@
               }
             }
           ]
-        },
-        {
-          "InternalName": "KidneyClearance",
-          "DataSource": "Radtke2017",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (experiment)",
-              "Value": 0.67
-            },
-            {
-              "Name": "Plasma clearance",
-              "Value": 0.95,
-              "Unit": "ml/min/kg"
-            }
-          ]
         }
       ],
       "CalculationMethods": [
@@ -17744,7 +17656,7 @@
           "ValueOrigin": {
             "Source": "Publication",
             "Method": "Other",
-            "Description": "Radke_2017_Development of a pbpk modelling approach to predict the pk of vancomycin in...pdf"
+            "Description": "Radke 2017"
           }
         }
       ]
