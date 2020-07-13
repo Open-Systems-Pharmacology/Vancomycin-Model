@@ -1,6 +1,6 @@
 ### 2.2.1 In vitro / physico-chemical data
 
-A literature search was performed to collect available information on physicochemical properties of raltegravir. The obtained information from literature is summarized in the table below, and is used for model building.
+A literature search was performed to collect available information on physicochemical properties of vancomycin. The obtained information from literature is summarized in the table below, and is used for model building.
 
 | **Parameter**     | **Unit**  | **Vancomycin literature**                                    | **Description**                                 |
 | :---------------- | --------- | ------------------------------------------------------------ | ----------------------------------------------- |
