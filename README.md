@@ -1,16 +1,18 @@
 # Vancomycin-Model
 Whole-body PBPK model of Vancomycin 
 
+<a title="BartVL71 / Public domain" href="https://commons.wikimedia.org/wiki/File:Vancomycin.svg"><img width="512" alt="Vancomycin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Vancomycin.svg/512px-Vancomycin.svg.png"></a>
 
-<p align="center">
-  <img src="Vancomycin.png">
-</p>
+This repository contains:
 
-## Repository files
+- a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot)  of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-Within this repository, we distribute a whole-body PBPK model of  Vancomycin, that has been developed using clinical studies in adults and evaluated for its predictive performance of GFR mediated clearance in children. 
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
 
-The PK-Sim project file contains simulations of all published  clinical studies employed during model establishment ([[1-2](#reference)]) and for model predictions in pediatrics ([[3](#reference)]), including the respective observed data digitized.
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
 
 ## Code of conduct
 
@@ -23,12 +25,3 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 ## License
 
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
-
-## References
-
-[1] [Boeckh M, Lode H, Borner K, Höffken G, Wagner J, Koeppe P. Pharmacokinetics and serum bactericidal activity of vancomycin alone and in combination with ceftazidime in healthy volunteers. Antimicrob Agents Chemother. 1988 Jan;32(1):92-5.](https://aac.asm.org/content/32/1/92.long)
-
-[2] [Healy DP, Polk RE, Garson ML, Rock DT, Comstock TJ. Comparison of steady-state pharmacokinetics of two dosage regimens of vancomycin in normal volunteers. Antimicrob Agents Chemother. 1987 Mar;31(3):393-7.](https://aac.asm.org/content/31/3/393.long)
-
-[3] [Schaad UB, McCracken GH Jr, Nelson JD. Clinical pharmacology and efficacy of vancomycin in pediatric patients. J Pediatr. 1980 Jan;96(1):119-26.](https://www.sciencedirect.com/science/article/pii/S0022347680803477?via%3Dihub)
-

@@ -1,0 +1,269 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Vancomycin",
+            "Path": "https://github.com/Open-Systems-Pharmacology/Vancomycin-Model/releases/download/v1.1/Vancomycin.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "AllPlots": [
+            {
+                "Project": "Vancomycin",
+                "Simulation": "Boeckh 1988 Figure 1 0.5mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Vancomycin",
+                "Simulation": "Boeckh1988_1g",
+                "SectionId": 42
+            },
+            {
+                "Project": "Vancomycin",
+                "Simulation": "Healy1987_0.5gPer6h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Vancomycin",
+                "Simulation": "Healy1987_1gBID",
+                "SectionId": 42
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma.",
+                "SectionId": 41,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Vancomycin iv",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Vancomycin",
+                                "Simulation": "Boeckh 1988 Figure 1 0.5mg",
+                                "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Vancomycin.boeckh1988_fig1.0.5g TAD",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Vancomycin",
+                                "Simulation": "Boeckh1988_1g",
+                                "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Vancomycin.boeckh1988_fig1.1g TAD",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Vancomycin",
+                                "Simulation": "Healy1987_0.5gPer6h",
+                                "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Healy_1987_Figure1.500mgPer6h",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Vancomycin",
+                                "Simulation": "Healy1987_1gBID",
+                                "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Vancomycin.Healy_1987_Figure2",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Vancomycin",
+            "Name": "Vancomycin",
+            "Type": "Compound",
+            "SectionId": 40
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 40,
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1 Vancomycin final input parameters"
+                },
+                {
+                    "Id": 41,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Vancomycin Diagnostics Plots"
+                },
+                {
+                    "Id": 42,
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3 Vancomycin Concentration-Time profiles"
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "4 Conclusion"
+        },
+        {
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "5 References"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
