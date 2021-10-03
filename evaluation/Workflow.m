@@ -5,11 +5,16 @@
 close all
 tic
 
+if exist(fullfile(cd,'re_input'),'dir')>0 rmdir(fullfile(cd,'re_input'),'s'); end
+if exist(fullfile(cd,'re_output'),'dir')>0 rmdir(fullfile(cd,'re_output'),'s'); end
+if exist(fullfile(cd,'report'),'dir')>0 rmdir(fullfile(cd,'report'),'s'); end
+
+
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\OSPQualification\QualificationRunner9.0.91';
-markdownJoinerFolder = 'C:\OSPQualification\Markdownjoiner1.2.0.8';
-PKSimPortableFolder = 'C:\OSPQualification\PK-Sim9.1.1';
+qualificationRunnerFolder = 'C:\OSPQualification\QualificationRunner10.0.41';
+markdownJoinerFolder = 'C:\OSPQualification\markdown-joiner_1.2.0.8';
+PKSimPortableFolder = 'C:\OSPQualification\PK-Sim10.0.229';
 
 % --------------------------------------------------------------
 % replace basisDir and qualificationPlanName with your paths
@@ -23,7 +28,7 @@ PKSimPortableFolder = 'C:\OSPQualification\PK-Sim9.1.1';
 %   - report
 %
 
-basisDir = 'C:\Projects\Vancomycin\evaluation';
+basisDir = fullfile(cd);
 qualificationPlanName = 'Evaluation_plan.json';
 
 % In case your folder structure is different from assumed above, 
