@@ -1,9 +1,9 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Vancomycin",
-            "Path": "https://github.com/Open-Systems-Pharmacology/Vancomycin-Model/releases/download/v1.1/Vancomycin.json",
+            "Path": "../../Vancomycin.json",
             "BuildingBlocks": []
         }
     ],
@@ -121,7 +121,7 @@
         "AllPlots": [
             {
                 "Project": "Vancomycin",
-                "Simulation": "Boeckh 1988 Figure 1 0.5mg",
+                "Simulation": "Boeckh 1988 Figure 1 0.5g",
                 "SectionId": 42
             },
             {
@@ -157,30 +157,30 @@
                         "OutputMappings": [
                             {
                                 "Project": "Vancomycin",
-                                "Simulation": "Boeckh 1988 Figure 1 0.5mg",
+                                "Simulation": "Boeckh 1988 Figure 1 0.5g",
                                 "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Vancomycin.boeckh1988_fig1.0.5g TAD",
+                                "ObservedData": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Vancomycin",
                                 "Simulation": "Boeckh1988_1g",
                                 "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Vancomycin.boeckh1988_fig1.1g TAD",
+                                "ObservedData": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Vancomycin",
                                 "Simulation": "Healy1987_0.5gPer6h",
                                 "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Healy_1987_Figure1.500mgPer6h",
+                                "ObservedData": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Vancomycin",
                                 "Simulation": "Healy1987_1gBID",
                                 "Output": "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Vancomycin.Healy_1987_Figure2",
+                                "ObservedData": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)",
                                 "Color": "#000000"
                             }
                         ]

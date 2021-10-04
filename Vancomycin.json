@@ -312,7 +312,7 @@
       "Name": "Healy1987_1gBID",
       "Model": "4Comp",
       "ObservedData": [
-        "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)"
+        "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -438,9 +438,9 @@
               }
             },
             {
-              "Name": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
+              "Y": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -501,9 +501,9 @@
               }
             },
             {
-              "Name": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
+              "Y": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -534,7 +534,7 @@
       "Name": "Healy1987_0.5gPer6h",
       "Model": "4Comp",
       "ObservedData": [
-        "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)"
+        "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -670,9 +670,9 @@
               }
             },
             {
-              "Name": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
+              "Y": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -733,9 +733,9 @@
               }
             },
             {
-              "Name": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
+              "Y": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -766,7 +766,7 @@
       "Name": "Boeckh1988_1g",
       "Model": "4Comp",
       "ObservedData": [
-        "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)"
+        "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -876,9 +876,9 @@
               }
             },
             {
-              "Name": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
+              "Y": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -939,9 +939,9 @@
               }
             },
             {
-              "Name": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
+              "Y": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 3,
@@ -969,10 +969,10 @@
       ]
     },
     {
-      "Name": "Boeckh 1988 Figure 1 0.5mg",
+      "Name": "Boeckh 1988 Figure 1 0.5g",
       "Model": "4Comp",
       "ObservedData": [
-        "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)"
+        "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -1076,18 +1076,18 @@
           ],
           "Curves": [
             {
-              "Name": "Boeckh 1988 Figure 1 0.5mg-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Boeckh 1988 Figure 1 0.5g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "Y": "Boeckh 1988 Figure 1 0.5g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
+              "Y": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4,
@@ -1110,7 +1110,7 @@
               "WatermarkSize": 32
             }
           },
-          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5mg\n2021-09-17 16:55"
+          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
         },
         {
           "Axes": [
@@ -1139,18 +1139,18 @@
           ],
           "Curves": [
             {
-              "Name": "Boeckh 1988 Figure 1 0.5mg-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Boeckh 1988 Figure 1 0.5g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Boeckh 1988 Figure 1 0.5mg|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+              "Y": "Boeckh 1988 Figure 1 0.5g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean",
+              "Name": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
+              "Y": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4,
@@ -1173,14 +1173,14 @@
               "WatermarkSize": 32
             }
           },
-          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5mg\n2021-09-17 16:55"
+          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
         }
       ]
     }
   ],
   "ObservedData": [
     {
-      "Name": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)",
+      "Name": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -1216,7 +1216,7 @@
         },
         {
           "Name": "Molecule",
-          "Value": "vancomycin"
+          "Value": "Vancomycin"
         },
         {
           "Name": "Species",
@@ -1263,7 +1263,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticStdDev"
+                "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -1288,7 +1288,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean"
+            "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1315,7 +1315,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Boekh 1988 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
+          "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -1339,7 +1339,7 @@
       }
     },
     {
-      "Name": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)",
+      "Name": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -1375,7 +1375,7 @@
         },
         {
           "Name": "Molecule",
-          "Value": "vancomycin"
+          "Value": "Vancomycin"
         },
         {
           "Name": "Species",
@@ -1422,7 +1422,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticStdDev"
+                "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -1447,7 +1447,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean"
+            "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1474,7 +1474,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Boekh 1988 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
+          "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -1498,7 +1498,7 @@
       }
     },
     {
-      "Name": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)",
+      "Name": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -1534,7 +1534,7 @@
         },
         {
           "Name": "Molecule",
-          "Value": "vancomycin"
+          "Value": "Vancomycin"
         },
         {
           "Name": "Species",
@@ -1562,7 +1562,7 @@
         },
         {
           "Name": "Formulation",
-          "Value": "Vancocin (vancomycin hydrochloride) in sterile water"
+          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water"
         },
         {
           "Name": "Food state",
@@ -1578,7 +1578,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean"
+            "Path": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1630,7 +1630,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Healy 1987 - mean 0.5g - vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
+          "Path": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -1679,7 +1679,7 @@
       }
     },
     {
-      "Name": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)",
+      "Name": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -1715,7 +1715,7 @@
         },
         {
           "Name": "Molecule",
-          "Value": "vancomycin"
+          "Value": "Vancomycin"
         },
         {
           "Name": "Species",
@@ -1743,7 +1743,7 @@
         },
         {
           "Name": "Formulation",
-          "Value": "Vancocin (vancomycin hydrochloride) in sterile water"
+          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water"
         },
         {
           "Name": "Food state",
@@ -1759,7 +1759,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|vancomycin|ArithmeticMean"
+            "Path": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1811,7 +1811,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Healy 1987 - mean 1g - vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
+          "Path": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
           "Type": "Time"
         },
         "DataInfo": {
