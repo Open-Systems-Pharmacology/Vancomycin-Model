@@ -1,9 +1,9 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Vancomycin",
-            "Path": "https://github.com/Open-Systems-Pharmacology/Vancomycin-Model/releases/download/v1.1/Vancomycin.json",
+            "Path": "../../Vancomycin.json",
             "BuildingBlocks": []
         }
     ],
