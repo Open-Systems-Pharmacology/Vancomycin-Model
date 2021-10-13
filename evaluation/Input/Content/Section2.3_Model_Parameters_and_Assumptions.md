@@ -4,9 +4,9 @@ Only intravenous data was available for model building.
 
 ### 2.3.2 Distribution
 
-Sun et al. ([Sun 1993](#5-references)) reported that albumin and immunoglobulin A are the dominant binding protein of vancomycin, and that vancomycin does not bind to Alpha-1 acid glycoprotein (AAG). As in PK-Sim there is only option to bind to albumin or AAG, vancomycin binding is built-in as bound to albumin only in the PBPK model. The fraction unbound (fu) of Vancomycin is built-in as 0.67 as reported by Radke et al. ([Radke 2017](#5-references)).
+Sun et al. ([Sun 1993](#5-references)) reported that albumin and immunoglobulin A are the dominant protein binding partners of vancomycin, and that vancomycin does not bind to alpha-1 acid glycoprotein (AAG). As in PK-Sim there is only the option to bind to albumin or AAG, vancomycin binding is built-in as bound to albumin only in the PBPK model. The fraction unbound (fu) of vancomycin is built-in as 0.67 as reported by Radke et al. ([Radke 2017](#5-references)).
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation method by Schmitt, and cell permeability calculation method by Charge dependent Schmidt . Specific organ permeability normalized to surface area was automatically calculated by PK-Sim.
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation method by Schmitt, and cell permeability calculation method by Charge dependent Schmidt. Specific organ permeability normalized to surface area was automatically calculated by PK-Sim.
 
 ### 2.3.3 Metabolism and Elimination
 
