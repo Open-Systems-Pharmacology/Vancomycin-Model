@@ -150,37 +150,6 @@
               }
             }
           ]
-        },
-        {
-          "InternalName": "LiverClearance",
-          "DataSource": "Radtke 2017",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (experiment)",
-              "Value": 0.67
-            },
-            {
-              "Name": "Lipophilicity (experiment)",
-              "Value": 2.45,
-              "Unit": "Log Units"
-            },
-            {
-              "Name": "Plasma clearance",
-              "Value": 0.11,
-              "Unit": "ml/min/kg"
-            },
-            {
-              "Name": "Specific clearance",
-              "Value": 0.0,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 3' on 2018-07-13 11:16"
-              }
-            }
-          ]
         }
       ],
       "CalculationMethods": [
