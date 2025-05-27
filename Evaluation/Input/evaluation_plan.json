@@ -1,5 +1,5 @@
-﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.3/OSP_Qualification_Plan_Schema.json",
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Vancomycin",
@@ -122,34 +122,37 @@
             {
                 "Project": "Vancomycin",
                 "Simulation": "Boeckh 1988 Figure 1 0.5g",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Vancomycin",
                 "Simulation": "Boeckh1988_1g",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Vancomycin",
                 "Simulation": "Healy1987_0.5gPer6h",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Vancomycin",
                 "Simulation": "Healy1987_1gBID",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma.",
-                "SectionId": 41,
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "Vancomycin iv",
@@ -197,68 +200,68 @@
             "Project": "Vancomycin",
             "Name": "Vancomycin",
             "Type": "Compound",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
+                    "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
-                    "Title": "2.1 Modeling strategy"
+                    "Title": "Modeling strategy"
                 },
                 {
-                    "Id": 22,
+                    "Reference": "data",
                     "Content": "Content/Section2.2_Data_used.md",
-                    "Title": "2.2 Data used"
+                    "Title": "Data used"
                 },
                 {
-                    "Id": 23,
+                    "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
-                    "Title": "2.3 Model parameters and assumptions"
+                    "Title": "Model parameters and assumptions"
                 }
             ]
         },
         {
-            "Id": 3,
+            "Reference": "results-and-discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
-            "Title": "3 Results and Discussion",
+            "Title": "Results and Discussion",
             "Sections": [
                 {
-                    "Id": 40,
+                    "Reference": "final-input-parameters",
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1 Vancomycin final input parameters"
+                    "Title": "Vancomycin final input parameters"
                 },
                 {
-                    "Id": 41,
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "3.2 Vancomycin Diagnostics Plots"
+                    "Title": "Vancomycin Diagnostics Plots"
                 },
                 {
-                    "Id": 42,
+                    "Reference": "ct-profiles",
                     "Content": "Content/Concentration_time_profiles.md",
-                    "Title": "3.3 Vancomycin Concentration-Time profiles"
+                    "Title": "Vancomycin Concentration-Time profiles"
                 }
             ]
         },
         {
-            "Id": 4,
+            "Reference": "conclusion",
             "Content": "Content/Section4_Conclusion.md",
-            "Title": "4 Conclusion"
+            "Title": "Conclusion"
         },
         {
-            "Id": 5,
+            "Reference": "main-references",
             "Content": "Content/References.md",
-            "Title": "5 References"
+            "Title": "References"
         }
     ],
     "Intro": [

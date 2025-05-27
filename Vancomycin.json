@@ -1,5 +1,5 @@
 {
-  "Version": 78,
+  "Version": 80,
   "Individuals": [
     {
       "Name": "Adult Male Boeckh 1988",
@@ -20,7 +20,8 @@
           "Value": 65.1,
           "Unit": "kg"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Adult Male Healy 1987",
@@ -41,7 +42,8 @@
           "Value": 66.5,
           "Unit": "kg"
         }
-      }
+      },
+      "ExpressionProfiles": []
     }
   ],
   "Compounds": [
@@ -332,23 +334,30 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|1000 mg BID Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|1000 mg BID Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|1000 mg BID Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)"
+        }
       ],
       "Individual": "Adult Male Healy 1987",
       "Compounds": [
@@ -432,6 +441,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin_clean\nHealy1987_1gBID\n2019-05-11 22:47"
         },
         {
@@ -495,6 +510,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin_clean\nHealy1987_1gBID\n2019-05-11 22:47"
         }
       ]
@@ -554,33 +575,40 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|500 mg 6h Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|500 mg 6h Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|500 mg 6h Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|500 mg 6h Healy1987|Application_4|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|Application_4|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         },
         {
-          "Path": "Applications|500 mg 6h Healy1987|Application_5|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|Application_5|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)"
+        }
       ],
       "Individual": "Adult Male Healy 1987",
       "Compounds": [
@@ -664,6 +692,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin_clean\nHealy1987_0.5gPer6h\n2019-05-11 22:45"
         },
         {
@@ -727,6 +761,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin_clean\nHealy1987_0.5gPer6h\n2019-05-11 22:45"
         }
       ]
@@ -780,13 +820,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|1g infusion 60min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1g infusion 60min|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Adult Male Boeckh 1988",
       "Compounds": [
@@ -870,6 +917,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin\nBoeckh1988_1g\n2021-09-17 16:55"
         },
         {
@@ -933,6 +986,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin\nBoeckh1988_1g\n2021-09-17 16:55"
         }
       ]
@@ -989,13 +1048,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Boeckh_1988_0.5g|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Boeckh_1988_0.5g|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
           "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Boeckh 1988 Figure 1 0.5g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Adult Male Boeckh 1988",
       "Compounds": [
@@ -1079,6 +1145,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
         },
         {
@@ -1142,6 +1214,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
         }
       ]
@@ -1153,75 +1231,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5117.0
+          "Value": 5117.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Boekh 1988"
+          "Value": "Boekh 1988",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3279907"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3279907",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "mean 0.5g"
+          "Value": "mean 0.5g",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Vancomycin"
+          "Value": "Vancomycin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 g"
+          "Value": "0.5 g",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "amikacin in 5% glucose solution"
+          "Value": "amikacin in 5% glucose solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -1231,13 +1327,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 1449.3
               },
               "Values": [
@@ -1256,13 +1350,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 1449.3
           },
           "Values": [
@@ -1283,14 +1375,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -1312,75 +1402,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5118.0
+          "Value": 5118.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Boekh 1988"
+          "Value": "Boekh 1988",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3279907"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3279907",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "mean 1g"
+          "Value": "mean 1g",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Vancomycin"
+          "Value": "Vancomycin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 g"
+          "Value": "1 g",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "amikacin in 5% glucose solution"
+          "Value": "amikacin in 5% glucose solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -1390,13 +1498,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 1449.3
               },
               "Values": [
@@ -1415,13 +1521,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 1449.3
           },
           "Values": [
@@ -1442,14 +1546,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -1471,88 +1573,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5119.0
+          "Value": 5119.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Healy 1987"
+          "Value": "Healy 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3579256"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3579256",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "mean 0.5g"
+          "Value": "mean 0.5g",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Vancomycin"
+          "Value": "Vancomycin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.5 g"
+          "Value": "0.5 g",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0-12-24"
+          "Value": "0-12-24",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water"
+          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 1449.3
           },
           "Values": [
@@ -1598,14 +1716,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.80268,
@@ -1652,88 +1768,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5120.0
+          "Value": 5120.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Healy 1987"
+          "Value": "Healy 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3579256"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3579256",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2"
+          "Value": "Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "mean 1g"
+          "Value": "mean 1g",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Vancomycin"
+          "Value": "Vancomycin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 g"
+          "Value": "1 g",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0-12-24"
+          "Value": "0-12-24",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water"
+          "Value": "Vancocin (Vancomycin hydrochloride) in sterile water",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 1449.3
           },
           "Values": [
@@ -1779,14 +1911,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0,

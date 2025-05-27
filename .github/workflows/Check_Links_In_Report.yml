@@ -1,0 +1,47 @@
+name: Check links and cross-references in markdown report
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - master
+      - main
+
+permissions:
+  contents: read
+
+env:
+  REPORT_PATH: Evaluation/report
+
+jobs:
+  check-folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Check if subfolder exists
+        id: check_folder
+        run: |
+          if [ -d "./$REPORT_PATH" ]; then
+            echo "REPORT_FOLDER_EXISTS=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "REPORT_FOLDER_EXISTS=false" >> "$GITHUB_OUTPUT"
+          fi
+    outputs:
+      REPORT_FOLDER_EXISTS: ${{ steps.check_folder.outputs.REPORT_FOLDER_EXISTS }}
+      REPORT_PATH: ${{ env.REPORT_PATH }}
+
+  markdown-link-check:
+    needs: check-folder
+    if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
+    with:
+      folder-path: ${{ needs.check-folder.outputs.REPORT_PATH }} # env.XXX cannot be used in with:
+
+  crossref-check-with-anchors:
+    needs: check-folder
+    if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
+    with:
+      folder-path: ${{ needs.check-folder.outputs.REPORT_PATH }} # env.XXX cannot be used in with:

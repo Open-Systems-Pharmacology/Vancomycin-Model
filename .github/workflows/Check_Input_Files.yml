@@ -1,0 +1,29 @@
+name: Check input files for validity
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - master
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  check-bom:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/Check_BOM.yml@main
+          
+  utf8check:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/UTF8Check.yml@main
+    with:
+      file-extensions: 'R\|json\|md'  #File extension(s) to check separated by \| 
+
+  Spellcheck:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/SpellChecker.yml@main
+    
+  Validate-Evaluation-Plan:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/ValidateQualificationPlan.yml@main
+    with:
+      qualification-plan: 'Evaluation/Input/evaluation_plan.json'
+
